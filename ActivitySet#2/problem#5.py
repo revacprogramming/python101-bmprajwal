@@ -13,7 +13,7 @@ def dict_to_cs(d):
 
 
 def main():
-    cs = get_cs()
+    cs. = get_cs()
 
     d = cs_to_dict(cs) # convert connect string to a dictionary
     print(d)
