@@ -1,15 +1,16 @@
 
 
 class Menu(dict):
-    """fill in class definition here"""
+    def __setitem__(self, key = " ", value = 0):
+        self.__dict__[key] = value
 
-
-class Order:
-    """fill in class definition here"""
-
+class Order(dict):
+    def __setitem__(self, key = " ", value = 0):
+        self.__dict__[key] = value
 
 class Bill:
-    """fill in class definition here"""
+    def __init__(self, menu, order):
+        pass
 
 
 m = Menu()
