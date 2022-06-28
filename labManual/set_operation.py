@@ -32,7 +32,8 @@ def perform_operations(operation, *operands):
         if len(operands) == 3:
             return set(filter(lambda x:x in inter_set, operands[2]))
         return set(inter_set)
-
+      
+## Main program starts here ##
 def main():
     global set1, set2, set3
     set1 = input_set()
@@ -45,3 +46,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
