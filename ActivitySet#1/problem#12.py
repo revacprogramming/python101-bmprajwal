@@ -22,6 +22,6 @@ import re
 
 # # for i in la:
 # #   sum += i
-# print(sum)
+#print(sum)
 
 print(sum([int(i) for i in (re.findall('[0-9]+', (open('regex_sum_1548401.txt','r').read())))]))
