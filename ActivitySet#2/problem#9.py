@@ -55,4 +55,4 @@ except KeyError as e:
 
 print(o)
 b = Bill(m, o)
-print(b)
+print(b).
